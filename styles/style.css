@@ -14,15 +14,12 @@
     max-height: 756px;
     margin: 0 auto;
   }
-  li{
-    list-style-type: none;
-  }
   .header-link{
     margin: auto;
     color: #2f80ed;
     text-decoration: none;
   }
-  .header__logo_place{
+  .header__logo_place_header{
     position: absolute;
     left: 64px;
     top: 30px;
@@ -216,7 +213,7 @@
     background-color: #1f1f1f;
     overflow: hidden;
   }
-  .section-title_theme_dark{
+  .kaufman_section-title_theme_dark{
     width: 60%;
     margin-top: 90px;
     margin-bottom: 0;
@@ -227,7 +224,7 @@
     color: white;
     z-index: 2;
   }
-  .section-subtitle_theme_dark{
+  .kaufman_section-subtitle_theme_dark{
     width: 60%;
     margin-top: 20px;
     margin-bottom: 0;
@@ -238,7 +235,7 @@
     color: white;
     z-index: 2;
   }
-  .table_theme_dark{
+  .kaufman_table_theme_dark{
     display: flex;
     flex-wrap: wrap;
     justify-content: space-between;
@@ -246,11 +243,11 @@
     margin-bottom: 90px;
     z-index: 2;
   }
-  .table__cell_theme_dark{
+  .kaufman__table_cell_theme_dark{
     width: 200px;
     margin-top: 80px;
   }
-  .table__heading_theme_dark{
+  .kaufman__table_cell_theme_dark{
     line-height: 1.15;
     font-size: 24px;
     font-weight: 700;
@@ -258,7 +255,7 @@
     margin-top: 0;
     margin-bottom: 0;
   }
-  .table__text_theme_dark{
+  .kaufman__table_cell_theme_dark{
     line-height: 1.2;
     font-size: 18px;
     font-weight: 400;
@@ -267,12 +264,13 @@
     margin-bottom: 0;
   }
   .kaufman__triangle{
-    background-image: url(..//images/kaufman-triangle.svg);
+    background-image: url(../images/kaufman-triangle.svg);
     position: absolute;
     right: -210px;
     top: 0;
     width: 877px;
     height: 877px;
+    background-size: auto;
     z-index: 1;
   }
   .footer{
@@ -288,13 +286,13 @@
     margin-bottom: 40px;
     width: 90%;
   }
-  .footer__columns_content_copyright{
+  .footer__columns_column_content_copyright{
     display: flex;
     justify-content: space-between;
     flex-direction: column;
     flex-basis: 711px;
   }
-  .logo_place_footer{
+  .footer_logo_place_footer{
     width: 183px;
     height: 35px;
   }
@@ -322,7 +320,7 @@
     margin: 0;
     padding-left: 0;
   }
-  .footer__column_content_social{
+  .footer__columns_column_content_social{
     display: flex;
     flex-direction: column;
   }
@@ -340,4 +338,5 @@
     color: white;
     margin-top: 0;
     margin-bottom: 0px;
+    text-decoration: none;
   }
