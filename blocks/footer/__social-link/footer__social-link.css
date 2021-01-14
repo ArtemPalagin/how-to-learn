@@ -7,6 +7,7 @@
     margin-bottom: 0px;
     text-decoration: none;
   }
-  .footer__social-link:hover{
-    text-decoration: underline;
+ .footer__social-link:hover{
+    transition: all 0.5s;
+    opacity: 0.5;
   }
