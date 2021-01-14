@@ -7,7 +7,7 @@
     opacity: 1;
     transition: all 0.5s;
   }
-  .header__link:hover{
+ .header__link:hover{
     transition: all 0.5s;
     opacity: 0.5;
   }
