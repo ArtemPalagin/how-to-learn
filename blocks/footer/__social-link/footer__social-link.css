@@ -6,8 +6,11 @@
     margin-top: 0;
     margin-bottom: 0px;
     text-decoration: none;
-  }
- .footer__social-link:hover{
+    opacity: 1;
     transition: all 0.5s;
-    opacity: 0.5;
   }
+.footer__social-link:hover{
+     transition: all 0.5s;
+     opacity: 0.5;
+   }
+
